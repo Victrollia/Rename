@@ -4,7 +4,7 @@ def main():
     while True:
         vendor = input("Manufacturer:")
         mpn = input("MPN:")
-        index = input("Enter the index of the image (for example 1 for _01):")
+        index = input("Enter the starting index of the image (for example 1 for _01):")
         img_name = vendor.lower() + '-' + mpn.lower()
         img_name = img_name.replace(" ","-")
         img_name = img_name.replace("'","")
